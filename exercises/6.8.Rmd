@@ -1,0 +1,31 @@
+---
+output: html_document
+---
+
+## Exercise 6.8
+
+__In this exercise, we will generate simulated data, and will then use this data to perform best subset selection.__
+
+a. __Use the `rnorm()` function to generate a predictor X of length n = 100, as well as a noise vector  of length n = 100.__
+
+<!-- enter your solution here -->
+
+b. __Generate a response vector $Y$ of length $n = 100$ according to the model $Y = \beta_{0} + \beta_{1} X_{1} + \beta_{2}X_{2} + \beta_{3}X_{3}$, where $\beta_{0}$, $\beta_{1}$, $\beta_{2}$, and $\beta_{3}$ are constants of your choice.__
+
+<!-- enter your solution here -->
+
+c. __Use the `regsubsets()` function to perform best subset selection in order to choose the best model containing the predictors $X, X_{2},\ldots,X_{10}$. What is the best model obtained according to $C_{p}$, $BIC$, and adjusted $R^{2}$? Show some plots to provide evidence for your answer, and report the coefficients of the best model obtained. Note you will need to use the `data.frame()` function to create a single data set containing both X and Y.__
+
+<!-- enter your solution here -->
+
+d. __Repeat (c), using forward stepwise selection and also using backwards stepwise selection. How does your answer compare to the results in (c)?__
+
+<!-- enter your solution here -->
+
+e. __Now fit a lasso model to the simulated data, again using X, X2,...,X10 as predictors. Use cross-validation to select the optimal value of $\lambda$. Create plots of the cross-validation error as a function of $\lambda$. Report the resulting coefficient estimates, and discuss the results obtained.__
+
+<!-- enter your solution here -->
+
+f. __Now generate a response vector Y according to the model $Y = \beta_{0} + \beta{7}X_{7} + $, and perform best subset selection and the lasso. Discuss the results obtained.__
+
+<!-- enter your solution here -->

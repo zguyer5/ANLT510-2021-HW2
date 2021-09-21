@@ -1,0 +1,35 @@
+---
+output: html_document
+---
+
+## Exercise 6.9
+
+__In this exercise, we will predict the number of applications received using the other variables in the College data set.__
+
+a. __Split the data set into a training set and a test set.__
+
+<!-- enter your solution here -->
+
+b. __Fit a linear model using least squares on the training set, and report the test error obtained.__
+
+<!-- enter your solution here -->
+
+c. __Fit a ridge regression model on the training set, with $\lambda$ chosen by cross-validation. Report the test error obtained.__
+
+<!-- enter your solution here -->
+
+d. __Fit a lasso model on the training set, with $\lambda$ chosen by cross-validation. Report the test error obtained, along with the number of non-zero coefficient estimates.__
+
+<!-- enter your solution here -->
+
+e. __Fit a PCR model on the training set, with M chosen by cross validation. Report the test error obtained, along with the value of M selected by cross-validation.__
+
+<!-- enter your solution here -->
+
+f. __Fit a PLS model on the training set, with M chosen by cross-validation. Report the test error obtained, along with the value of M selected by cross-validation.__
+
+<!-- enter your solution here -->
+
+g. __Comment on the results obtained. How accurately can we predict the number of college applications received? Is there much difference among the test errors resulting from these five approaches?__
+
+<!-- enter your solution here -->
